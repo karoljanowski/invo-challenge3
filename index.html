@@ -15,22 +15,26 @@
 
 <body>
   <div id="home-page">
-    <div class="content">
-      <div class="image"></div>
-      <span class="title">Order Summary</span>
-      <p class="desc">You're close! Confirm your purchase and complete your order in the next step</p>
-      <div class="plan-box">
-        <i class="fa-solid fa-music"></i>
-        <div class="plan">
-          <span>Annual Plan</span>
-          <span class="price">$58.99 / year</span>
+    <div class="order__card">
+      <div class="order__card__image"></div>
+      <span class="order__card__title">Order Summary</span>
+      <p class="order__card__description">You're close! Confirm your purchase and complete your order in the next step
+      </p>
+      <div class="order__card__plan-box">
+        <i class="order__card__plan-box__i fa-solid fa-music"></i>
+        <div class="order__card__plan-box__middle">
+          <span class="order__card__plan-box__middle__plan">Annual Plan</span>
+          <span class="order__card__plan-box__middle__price">$58.99 / year</span>
         </div>
-        <a class="change-a" href="#">Change</a>
+        <a class="order__card__plan-box__change-a" href="#">Change</a>
       </div>
-      <button><img class="load" src="./public/images/loading.svg" alt=""> <span id="text">Proceed to Payment</span>
+      <button class="order__card__button"><img class="order__card__button__img" src="./public/images/loading.svg"
+          alt="">
+        <span id="text">Proceed to
+          Payment</span>
       </button>
 
-      <a class="cancel-a" href="#">Cancel Order</a>
+      <a class="order__card__cancel-a" href="#">Cancel Order</a>
     </div>
   </div>
 
