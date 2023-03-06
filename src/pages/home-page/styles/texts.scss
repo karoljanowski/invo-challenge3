@@ -1,0 +1,44 @@
+.order__card {
+    &__image {
+        background-image: url('https://s3-alpha-sig.figma.com/img/e70a/9bcf/69c25da5f8ca4ec6acdff21669c99b88?Expires=1679270400&Signature=edWhmhx-gQs~JlmNT1H0s8jz6sbxqSXQlFtr7mNsRb4qp~u-YN1Ko731xEV2JcqhnDYDeK-winjfWUWbkWvKdPQz-WJK4tWPqT1571pHM5KT2MG8d4YrU7pluN733OC19OLgu30j~setRT~FEhzHFjjkxdtW4hQa1CL2L-J5Oed9ex~c5hSEaeAkSmnDA7MZpG8NRX8ZjCrzIeOczupOsvd1k9-HHvVAtqWkamhCv65qFFgtZ1KPD4-uyNhOaETKKcTE960mf716FxE7W45vjK37UVhky0XrRmfmm8BwFXb9bIf-gxW~Yy9PiENPmfg~YrJxWX237219HQyd-AMH0Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+        min-height: 188px;
+        background-position: center;
+        background-size: 150%;
+
+        @media screen and (min-width: 960px) {
+            min-height: 232px;
+            background-size: 115%;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 1.65em;
+
+        @media screen and (min-width: 960px) {
+            font-size: 2rem;
+            margin-top: 1em;
+        }
+    }
+
+    &__description {
+        color: var(--color-body);
+        text-align: center;
+        margin-top: 1.1em;
+        font-size: 0.875rem;
+        font-weight: 500;
+        padding: 0 1em;
+        line-height: 1.6;
+        letter-spacing: -0.2px;
+
+        @media screen and (min-width: 960px) {
+            padding-inline: 5em;
+            line-height: 1.6;
+            font-size: 1rem;
+            margin-top: 1em;
+        }
+    }
+
+}
